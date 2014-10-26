@@ -1,3 +1,3 @@
-Travis: [![Build Status](https://travis-ci.org/doooeeerte/offersCrawler.svg?branch=master)](https://travis-ci.org/doooeeerte/offersCrawler) // Drone.io: [![Build Status](https://drone.io/github.com/doooeeerte/offersCrawler/status.png)](https://drone.io/github.com/doooeeerte/offersCrawler/latest)
+Travis: [![Build Status](https://travis-ci.org/doooeeerte/offersCrawler.svg?branch=master)](https://travis-ci.org/doooeeerte/offersCrawler) // Drone.io: [![Build Status](https://drone.io/github.com/doooeeerte/offersCrawler/status.png)](https://drone.io/github.com/doooeeerte/offersCrawler/latest) // Deps: [![Dependency Status](https://gemnasium.com/doooeeerte/offersCrawler.svg)](https://gemnasium.com/doooeeerte/offersCrawler)
 
 Crawl rebuy for some specific bands in order to get some great albums for a small price
