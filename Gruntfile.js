@@ -50,11 +50,11 @@ module.exports = function( grunt ) {
     watch: {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
-        tasks: ['jshint:gruntfile']
+        tasks: 'jshint:gruntfile'
       },
       src: {
         files: 'crawler.js',
-        tasks: ['jshint:src']
+        tasks: 'jshint:src'
       },
       test: {
         files: '<%= nodeunit.files %>',
@@ -65,7 +65,7 @@ module.exports = function( grunt ) {
 
   // Used by npm test
   grunt.registerTask( 'test', function() {
-    grunt.task.run('nodeunit');
+    grunt.task.run( [ 'jshint:gruntfile', 'jshint:src', 'nodeunit' ] );
   });
 
   // These plugins provide necessary tasks.
