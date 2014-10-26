@@ -42,13 +42,10 @@ module.exports = function( grunt ) {
       },
       src: {
         src: 'crawler.js'
-      }/*,
-      lib_test: {
-        src: ['lib/** /*.js', 'test/** /*.js']
-      }*/
+      }
     },
     nodeunit: {
-      files: ['test/**/*_test.js']
+      files: 'tests/**/*Test.js'
     },
     watch: {
       gruntfile: {
@@ -58,11 +55,11 @@ module.exports = function( grunt ) {
       src: {
         files: 'crawler.js',
         tasks: ['jshint:src']
-      }/*,
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test', 'nodeunit']
-      }*/
+      },
+      test: {
+        files: '<%= nodeunit.files %>',
+        tasks: 'nodeunit'
+      }
     }
   });
 
