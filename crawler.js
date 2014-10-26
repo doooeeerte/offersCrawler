@@ -1,21 +1,25 @@
-var scraperjs = require( 'scraperjs' );
-var router = new scraperjs.Router();
+( function() {
+  'use strict';
 
-router.otherwise( function( url ) {
-  console.log( "Url '"+url+"' couldn't be routed." );
-} );
+  var scraperjs = require( 'scraperjs' );
+  var router = new scraperjs.Router();
 
-var path = {};
+  router.otherwise( function( url ) {
+    console.log( 'Url "' + url + '" couldn\'t be routed.' );
+  } );
 
-router.on( 'https?://(www.)?youtube.com/watch/:id' )
-      .createStatic()
-      .scrape( function( $ ) {
-        return $( 'a' ).map( function() {
-          return $( this ).attr( 'href' );
-        } ).get();
-      }, function( links, utils ) {
-          console.log( utils.params.id, links );
-          path[ utils.params.id ] = links;
-      } );
+  var path = {};
 
-router.route("https://www.youtube.com/watch/YE7VzlLtp-4");
+  router.on( 'https?://(www.)?youtube.com/watch/:id' )
+        .createStatic()
+        .scrape( function( $ ) {
+          return $( 'a' ).map( function() {
+            return $( this ).attr( 'href' );
+          } ).get();
+        }, function( links, utils ) {
+            console.log( utils.params.id, links );
+            path[ utils.params.id ] = links;
+        } );
+
+  router.route( 'https://www.youtube.com/watch/YE7VzlLtp-4' );
+} )();
