@@ -9,16 +9,16 @@
   "homepage": "https://github.com/doooeeerte/offersCrawler",
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "git://github.com/doooeeerte/offersCrawler.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "TODO"
+      "url": "http://opensource.org/licenses/MIT"
     }
   ],
   "bugs": {
-    "url": "TODO"
+    "url": "https://github.com/doooeeerte/offersCrawler/issues"
   },
 
   "engines": {
