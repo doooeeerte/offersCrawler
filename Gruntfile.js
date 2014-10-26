@@ -63,6 +63,11 @@ module.exports = function( grunt ) {
     }
   });
 
+  // Used by npm test
+  grunt.registerTask( 'test', function() {
+    grunt.task.run('nodeunit');
+  });
+
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-contrib-jshint');
