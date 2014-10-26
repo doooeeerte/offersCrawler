@@ -1,0 +1,34 @@
+{
+  "name": "offersCrawler",
+  "description": "Crawls rebuy offers for specific interesting bands",
+  "version": "0.0.1",
+  "author": {
+    "name": "Doooeeerte",
+    "url": "https://github.com/doooeeerte/"
+  },
+  "homepage": "https://github.com/doooeeerte/offersCrawler",
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "TODO"
+    }
+  ],
+  "bugs": {
+    "url": "TODO"
+  },
+
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
