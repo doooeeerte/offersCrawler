@@ -41,7 +41,7 @@ module.exports = function( grunt ) {
         src: 'Gruntfile.js'
       },
       src: {
-        src: 'crawler.js'
+        src: [ 'crawler.js', 'lib/*.js' ]
       }
     },
     nodeunit: {
@@ -53,11 +53,11 @@ module.exports = function( grunt ) {
         tasks: 'jshint:gruntfile'
       },
       src: {
-        files: 'crawler.js',
+        files: [ 'crawler.js', 'lib/*.js' ],
         tasks: 'jshint:src'
       },
       test: {
-        files: '<%= nodeunit.files %>',
+        files: [ 'crawler.js', 'lib/*.js', '<%= nodeunit.files %>' ],
         tasks: 'nodeunit'
       }
     }
