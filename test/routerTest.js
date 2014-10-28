@@ -3,7 +3,7 @@ exports.testRouter = function( test ) {
 
   test.ok( router !== undefined, 'router is non null' );
 
-  router.route( 'https://www.youtube.com/watch/YE7VzlLtp-4' );
+  router.route( 'http://localhost:31337/' );
 
   test.done();
 };
