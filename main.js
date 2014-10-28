@@ -1,7 +1,7 @@
 ( function() {
   'use strict';
 
-  var crawler = require( './lib/crawler' )( function handleResult() {
+  require( './lib/crawler' )( 'TODO', function handleResult() {
     // TODO
   } );
 } )();
