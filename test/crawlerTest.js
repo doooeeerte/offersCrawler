@@ -1,4 +1,4 @@
-exports.testCrawler = function( test ) {
+exports.testCrawler = function testCrawler( test ) {
   'use strict';
 
   var testResponse;

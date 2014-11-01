@@ -7,7 +7,7 @@ var nockResponses = function nockResponses() {
     .reply( 200, require( 'fs' ).readFileSync( './test/sample.html', 'utf8' ) );
 };
 
-exports.testScraper = function( test ) {
+exports.testScraper = function testScraper( test ) {
   'use strict';
 
   var links = [];
