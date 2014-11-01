@@ -41,11 +41,11 @@ module.exports = function( grunt ) {
         src: 'Gruntfile.js'
       },
       src: {
-        src: [ 'main.js', 'lib/*.js' ]
+        src: [ 'main.js', 'lib/*.js', 'test/*Test.js' ]
       }
     },
     nodeunit: {
-      files: 'test/**/*Test.js'
+      files: 'test/*Test.js'
     },
     watch: {
       gruntfile: {
@@ -53,11 +53,11 @@ module.exports = function( grunt ) {
         tasks: 'jshint:gruntfile'
       },
       src: {
-        files: [ 'main.js', 'lib/*.js' ],
+        files: [ 'main.js', 'lib/*.js', 'test/*Test.js' ],
         tasks: 'jshint:src'
       },
       test: {
-        files: [ 'main.js', 'lib/*.js', '<%= nodeunit.files %>' ],
+        files: [ 'main.js', 'lib/*.js', 'test/*Test.js', '<%= nodeunit.files %>' ],
         tasks: 'nodeunit'
       }
     }

@@ -1,4 +1,6 @@
 exports.testCrawler = function( test ) {
+  'use strict';
+
   var testResponse;
 
   var crawlerGenerator = require( '../lib/crawler' );
