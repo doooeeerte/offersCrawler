@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://graph.facebook.com/schema/og" xmlns:og="http://ogp.me/ns#"  lang="de">
+    <head>
+                            
+    <script type="text/javascript" src="https://digwfxkiqhucy.cloudfront.net/scripts/library/tracking/webtrekk/webtrekk_abtest.js?20141031143249"></script>    <title>reBuy.de: Suchergebnisse für &quot;Heaven Shall Burn&quot;</title>    <meta name="robots" content="noindex" >
+<meta http-equiv="content-type" content="text/html; charset=utf-8" ><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAUDVF5ACQMHVVlVBg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+<meta name="verify-v1" content="AbAW8nCFaH6uNq6sgQwx0w/NeFAKVlu0E9vHqcbsjEg=" >
+<meta name="description" content="Kaufen und verkaufen Sie Spiele bei reBuy.de oder geben Sie Ihre gebrauchten Games einfach und kostenfrei in Zahlung." >    <link href="https://digwfxkiqhucy.cloudfront.net/styles/rebuy.css?20141031143249" media="screen" rel="stylesheet" type="text/css" >
+<link href="https://m.rebuy.de/kaufen/suchen?inStock=1&amp;c=83&amp;q=%22Heaven+Shall+Burn%22&amp;priceMax=2000&amp;sortBy=price_asc" rel="alternate" >
+<link href="https://digwfxkiqhucy.cloudfront.net/styles/pages/sale/search/index.css?20141031143249" media="screen" rel="stylesheet" type="text/css" >
+<link href="https://digwfxkiqhucy.cloudfront.net/styles/bootstrap/slider.css?20141031143249" media="screen" rel="stylesheet" type="text/css" >
+<link href="https://www.rebuy.de/kaufen/suchen" rel="canonical" >
+<link href="https://digwfxkiqhucy.cloudfront.net/styles/layout/2-column-search.css?20141031143249" media="screen" rel="stylesheet" type="text/css" >
+<!--[if IE]> <link href="https://digwfxkiqhucy.cloudfront.net/styles/ie.css?20141031143249" media="all" rel="stylesheet" type="text/css" ><![endif]-->
+<!--[if lte IE 7]> <link href="https://digwfxkiqhucy.cloudfront.net/styles/ie7.css?20141031143249" media="all" rel="stylesheet" type="text/css" ><![endif]-->    <script type="text/javascript" src="https://assets.adobedtm.com/b72d8aa97a2708d94fcee619efb3fe2c874efc75/satelliteLib-aebead7290c2b3f27632590c4551171fef6f0d4d.js"></script>
+    
+
+<!--
+                    888888b.                              888
+                    888  "88b                             888
+                    888  .88P                             888
+    888d888 .d88b.  8888888K.  888  888 888  888      .d88888  .d88b.
+    888P"  d8P  Y8b 888  "Y88b 888  888 888  888     d88" 888 d8P  Y8b
+    888    88888888 888    888 888  888 888  888     888  888 88888888
+    888    Y8b.     888   d88P Y88b 888 Y88b 888 d8b Y88b 888 Y8b.
+    888     "Y8888  8888888P"   "Y88888  "Y88888 Y8P  "Y88888  "Y8888
+                                             888
+                                        Y8b d88P
+                                         "Y88P"
+
+    Become part of the team.
+    http://jobs.rebuy.de/
+-->
+
+</head>
+    <body class="sale sale-search sale-search-index">
+        <div id="root">
+                <div id="advantage-bar">
+    <div class="advantage-bar-inner">
+        <ul class="advantages">
+            <li
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="bottom"
+                data-content="Wir verkaufen nur sorgfältig geprüfte Gebrauchtware.
+                        Sollten Sie dennoch einmal nicht zufrieden sein,
+                        können Sie die Artikel innerhalb von 21 Tagen an uns zurücksenden."
+                title="21 Tage Widerrufsrecht"
+                class="free-return"
+            >
+                21 Tage Widerrufsrecht
+            </li>
+            <li
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="bottom"
+                data-content="Die Qualität unserer Gebrauchtware liegt uns besonders am Herzen.
+                        Sollten Sie innerhalb der ersten 18 Monate doch Mängel bemerken,
+                        die Sie nicht selbst verschuldet haben, können Sie den Artikel einfach kostenfrei zurücksenden."
+                class="warranty"
+                title="18 Monate reBuy-Garantie"
+            >
+                18 Monate reBuy-Garantie
+            </li>
+            <li
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="bottom"
+                data-content="reBuy.de steht für handgeprüfte Gebrauchtware.
+                        Wir wollen, dass unsere Kunden gegenüber Neuware sparen, aber keine Kompromisse eingehen müssen.
+                        Deshalb prüfen wir alle Artikel sorgfältig von Hand auf ihre Funktionstüchtigkeit und den optischen Zustand."
+                title="Geprüfte Gebrauchtware"
+                class="warranty"
+            >Geprüfte Gebrauchtware</li>
+        </ul>
+        <a href="tel:+4930565995822" class="header-hotline">Hotline: +49 (0)30 / 565 995 822</a>
+    </div>
+</div>
+<div id="header" ng-app="quickcart">
+    <div class="header-inner">
+        <a href="/" class="logo" data-wtaction="head.logo">reBuy.de</a>
+        <div class="section">
+    <ul>
+        <li class="to-green"><a href="/verkaufen" data-wtaction="head.verkaufen">Verkaufen</a></li>
+        <li class="to-blue"><a href="/kaufen" data-wtaction="head.kaufen">Kaufen</a></li>
+    </ul>
+    <span class="header-section-marker"></span>
+</div>
+        <ul class="meta-navigation">
+            <li class="dropdown-blue">
+            <a
+                href="/anmelden"
+                data-wtaction="head.anmelden"                >
+                Anmelden
+                <span class="content-before"></span>
+            </a>
+
+            
+<div id="login-menu" class="content">
+    <div class="bridge"></div>
+    <img class="close" src="/images/icons/header/x.png" alt="close"/>
+    <div class="headline login"><span>Anmelden</span></div>
+        <form enctype="application/x-www-form-urlencoded" action="/anmelden" accept-charset="utf-8" method="post">
+
+<input type="hidden" name="cth" value="eb56064e617e82537f7dd3c6946aca7e" id="cth">
+<div class="form-row"><label for="email" class="required">E-Mail-Adresse</label>
+
+<input type="text" name="email" id="email" value="" class="text"></div>
+<div class="form-row"><label for="passwd" class="required">Passwort</label>
+
+<input type="password" name="passwd" id="passwd" value="" class="text"></div>
+<div class="form-row">
+<a tabindex="4" class="lostPassword" href="/customer/request-password">Passwort vergessen?</a></div>
+<button id="login-button" title="Anmelden" tabindex="3" class="btn-medium btn-orange btn" type="submit" >Anmelden</button>
+
+<input type="hidden" name="__action_handler" value="auth" id="__action_handler"></form>    <div class="register">
+        <label>Sie sind Neukunde?</label>
+        <a href="/registrieren" data-href="/registrieren" id="register-button" title="Jetzt registrieren" class="btn-medium btn-blue btn" data-wtaction="head.anmelden.registrieren">Jetzt registrieren</a>    </div>
+</div>
+        </li>
+    
+    <li class="support">
+        <a
+            href="/support"
+            data-wtaction="head.hilfe"            title="Zum Hilfe-Bereich von reBuy.de"
+            rel="nofollow"
+        >Hilfe</a>
+    </li>
+</ul>
+        <form
+    accept-charset="utf-8"
+    id="single-search"
+    class="search"
+    method="get"
+    action="/kaufen/suchen"
+    >
+    <input type="submit" class="submit" value="Suche" />
+            <input
+            type="text"
+            id="header-search"
+            name="q"
+            class="buy allow-empty-search"
+            value="&quot;Heaven Shall Burn&quot;"
+            autocomplete="off"/>
+    </form>
+        
+<div
+    class="quickcart dropdown-blue"
+    ng-if="false"
+>
+    <a
+        class="unknown"
+        href="/checkout/cart"
+        data-wtaction="head.warenkorb"        >
+        <span class="summary">
+            <span class="item-count">?</span>
+        </span>
+
+        <strong>
+            Warenkorb
+            <span class="thin-arrow-bottom">
+                <span class="content-before"></span>
+            </span>
+        </strong>
+        <span class="amount">-,--&nbsp;€</span>
+    </a>
+</div>
+
+<div
+    class="quickcart dropdown-blue"
+    ng-cloak="ng-cloak"
+    ng-controller="QuickcartInfoController as quickcartInfo"
+>
+    <a
+        class="disabled"
+        ng-class="loading || itemCount === 0 ? 'disabled' : ''"
+
+        href="/checkout/cart"
+        data-wtaction="head.warenkorb"    >
+        <span class="summary">
+            <span class="item-count">{{ itemCount === -1 ? '?' : itemCount }}</span>
+        </span>
+
+        <strong>Warenkorb
+            <span class="thin-arrow-bottom">
+                <span class="content-before"></span>
+            </span>
+        </strong>
+        <span class="amount">{{price | currency}}&nbsp;€</span>
+
+    </a>
+
+    <div
+        class="content disabled"
+        ng-class="loading || itemCount === 0 ? 'content disabled' : 'content'"
+    >
+        <div class="bridge"></div>
+        <ul class="top-level">
+            <li class="dropdown-headline">
+                <span>Warenkorb</span>
+                <img class="close" src="/images/icons/header/x.png" alt="schließen">
+            </li>
+        </ul>
+        <ul
+            class="cart-items"
+            ng-class="loading ? 'cart-items loading' : 'cart-items'"
+            ng-controller="QuickcartDropdownController as quickcartDropdown"
+        >
+            <li class="cart-item" ng-repeat="item in items | limitTo: 3">
+                <a
+                    href="{{item.url}}"
+                    data-wtaction="head.warenkorb.produkt"                >
+                    <div class="image">
+                        <img ng-src="{{item.img | thumbnail:90}}" src="" alt="" />
+                    </div>
+                    <div class="details">
+                        <div class="title">{{item.name | truncate:50}}</div>
+                        <div class="amount">{{item.price | currency}}&nbsp;€</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="more" ng-show="itemCount > 3">
+            <a
+                href="/checkout/cart"
+                data-wtaction="head.warenkorb.mehr"            >Mehr…
+            </a>
+        </div>
+        <div class="cart-buttons">
+            <a href="/checkout/cart" data-href="/checkout/cart" id="button-quickcart-checkout-cart" title="Zum Warenkorb" class="btn-medium btn-blue cart-overview btn" data-wtaction="head.warenkorb.warenkorb">Zum Warenkorb</a>            <a href="/checkout/overview" data-href="/checkout/overview" id="button-quickcart-checkout-summary" title="Kauf abschließen" class="btn-medium btn-orange checkout btn" data-wtaction="head.warenkorb.kauf_abschliessen">Kauf abschließen</a>        </div>
+        <div class="free-shipping-hint"></div>
+    </div>
+</div>
+    </div>
+</div>
+<div id="header-main-navigation">
+    <ul class="allow-hover">
+        <li class="handy dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/handy" data-wtaction="headmenu.handys">Handys</a>
+            <div class="header-main-navigation content handys"><div class="main-navigation category-column outer-left handys border-right">
+    <p>Beliebt</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.handys.aktuelle-topseller" class="highlight" href="/kaufen/handy,all">Aktuelle Topseller</a></li>
+        <li><a data-wtaction="headmenu.handys.guenstige-handys" class="highlight" href="/kaufen/handy,all?ipp=20&amp;sortBy=price_asc">Günstige Handys</a></li>
+        <li><a data-wtaction="headmenu.handys.neueste-handys" class="highlight" href="/kaufen/handy,all?ipp=20&amp;sortBy=release">Neueste Handys</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column border-right before-category-image">
+    <p>Beliebteste Hersteller</p>
+    <ul class="multi-column col-2">
+        <li><a data-wtaction="headmenu.handys.apple" href="/kaufen/handy-apple">Apple</a></li>
+        <li><a data-wtaction="headmenu.handys.google" href="/kaufen/handy-google">Google</a></li>
+        <li><a data-wtaction="headmenu.handys.htc" href="/kaufen/handy-htc">HTC</a></li>
+        <li><a data-wtaction="headmenu.handys.lg" href="/kaufen/handy-lg">LG</a></li>
+        <li><a data-wtaction="headmenu.handys.motorola" href="/kaufen/handy-motorola">Motorola</a></li>
+        <li><a data-wtaction="headmenu.handys.nokia" href="/kaufen/handy-nokia">Nokia</a></li>
+        <li><a data-wtaction="headmenu.handys.rim-blackberry" href="/kaufen/handy-blackberry">RIM/Blackberry</a></li>
+        <li><a data-wtaction="headmenu.handys.samsung" href="/kaufen/handys">Samsung</a></li>
+        <li><a data-wtaction="headmenu.handys.sony" href="/kaufen/handy-sony-zubehoer">Sony</a></li>
+        <li><a data-wtaction="headmenu.handys.sony-ericsson" href="/kaufen/handy-sony-ericsson">Sony Ericsson</a></li>
+        <li><a data-wtaction="headmenu.handys.weitere-hersteller" href="/kaufen/handy-andere-hersteller">Weitere Hersteller</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column category-image">
+    <p class="highlight">Unsere Empfehlung</p>
+    
+<a data-wtaction="headmenu.handys.zu-den-samsung-handys" class="category-image" href="/kaufen/handys">
+    <img alt="Zu den Samsung-Handys" src="/images/header/navigation/category-handys.jpeg" width="228" height="150"/>
+    Zu den Samsung-Handys
+</a>
+</div>
+</div>
+        </li>
+        <li class="buecher dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/buecher" data-wtaction="headmenu.buecher">Bücher</a>
+            <div class="header-main-navigation content books"><div class="main-navigation category-column outer-left books border-right">
+    <p>Beliebt</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.buecher.guenstigste-buecher" href="/kaufen/buecher,all">Beliebteste Bücher</a></li>
+        <li><a data-wtaction="headmenu.buecher.guenstigste-buecher" href="/kaufen/buecher,all?ipp=20&amp;sortBy=price_asc">Günstigste Bücher</a></li>
+        <li><a data-wtaction="headmenu.buecher.neueste-buecher" href="/kaufen/buecher,all?ipp=20&amp;sortBy=release">Neueste Bücher</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column border-right">
+    <p>Beliebteste Kategorien</p>
+    <ul class="col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.buecher.krimis-und-thriller" href="/kaufen/buecher-belletristik-spannung-krimis-thriller-spionage">Krimis & Thriller</a></li>
+        <li><a data-wtaction="headmenu.buecher.gegenwartsliteratur" href="/kaufen/buecher-belletristik-gegenwartsliteratur-ab-1945">Gegenwartsliteratur (ab 1945)</a></li>
+        <li><a data-wtaction="headmenu.buecher.science-fiction-und-fantasy" href="/kaufen/buecher-belletristik-science-fiction-fantasy">Science Fiction & Fantasy</a></li>
+        <li><a data-wtaction="headmenu.buecher.kinder-und-jugendbuecher" href="/kaufen/buecher-kinder-und-jugendbuecher">Kinder- & Jugendbücher</a></li>
+        <li><a data-wtaction="headmenu.buecher.ratgeber-und-freizeit" href="/kaufen/buecher-ratgeber-und-freizeit">Ratgeber & Freizeit</a></li>
+        <li><a data-wtaction="headmenu.buecher.hoerbuecher" href="/kaufen/buecher-hoerbuecher">Hörbücher</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column border-right before-category-image">
+    <p>Weitere Kategorien</p>
+    <ul class="col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.buecher.belletristik" href="/kaufen/buecher-belletristik">Belletristik</a></li>
+        <li><a data-wtaction="headmenu.buecher.reise-und-abenteuer" href="/kaufen/buecher-reise-und-abenteuer">Reise & Abenteuer</a></li>
+        <li><a data-wtaction="headmenu.buecher.sachbuecher" href="/kaufen/buecher-sachbuecher">Sachbücher</a></li>
+        <li><a data-wtaction="headmenu.buecher.wissen-und-bildung" href="/kaufen/buecher-wissen-und-bildung">Wissen & Bildung</a></li>
+        <li><a data-wtaction="headmenu.buecher.englische-buecher" href="/kaufen/buecher-englische-buecher">Englische Bücher</a></li>
+        <li><a data-wtaction="headmenu.buecher.sonstiges" href="/kaufen/buecher-sonstiges">Sonstiges</a></li>
+        <li><a data-wtaction="headmenu.buecher.alle-buecher-anzeigen" href="/kaufen/buecher,all">Alle Bücher anzeigen</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column category-image">
+    <p class="highlight">Aktuelle Bestseller: Krimis</p>
+    <a data-wtaction="headmenu.buecher.zu-den-krimis" class="category-image" href="/kaufen/buecher-belletristik-spannung-krimis-thriller-spionage">
+    <img alt="Zu den Krimis" src="/images/header/navigation/category-books.jpeg" width="228" height="150"/>
+    Zu den Krimis
+    </a>
+</div>
+</div>
+        </li>
+        <li class="filme dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/filme" data-wtaction="headmenu.filme">Filme</a>
+            <div class="header-main-navigation content films"><div  class="main-navigation category-column outer-left border-right">
+    <p>Beliebt</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.filme.beliebteste-filme" href="/kaufen/filme,all">Beliebteste Filme</a></li>
+        <li><a data-wtaction="headmenu.filme.guenstigste-filme" href="/kaufen/filme,all?ipp=20&amp;sortBy=price_asc">Günstigste Filme</a></li>
+        <li><a data-wtaction="headmenu.filme.neuerscheinungen" href="/kaufen/filme,all?ipp=20&amp;sortBy=release">Neuerscheinungen</a></li>
+    </ul>
+    <p>Formate</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.filme.blu-ray-disc" href="/kaufen/filme-blu-ray-disc">Blu-Ray Disc</a></li>
+        <li><a data-wtaction="headmenu.filme.dvd" href="/kaufen/filme-dvd">DVD</a></li>
+        <li><a data-wtaction="headmenu.filme.hd-dvd" href="/kaufen/filme-hd-dvd">HD DVD</a></li>
+        <li><a data-wtaction="headmenu.filme.umd" href="/kaufen/filme-umd">UMD</a></li>
+    </ul>
+</div>
+<div  class="main-navigation category-column border-right">
+    <p>Beliebteste DVD Genres</p>
+    <ul class="col-2  col-inner-right">
+        <li><a data-wtaction="headmenu.filme.action-und-thriller" href="/kaufen/filme-dvd-action-und-thriller">Action &amp; Thriller</a></li>
+        <li><a data-wtaction="headmenu.filme.fantasy" href="/kaufen/filme-dvd-fantasy">Fantasy</a></li>
+        <li><a data-wtaction="headmenu.filme.horror" href="/kaufen/filme-dvd-horror">Horror</a></li>
+        <li><a data-wtaction="headmenu.filme.kinderfilme-und-zeichentrick" href="/kaufen/filme-dvd-kinderfilme-und-zeichentrick">Kinderfilme &amp; Zeichentrick</a></li>
+        <li><a data-wtaction="headmenu.filme.komoedie" href="/kaufen/filme-dvd-komoedie">Komödie</a></li>
+        <li><a data-wtaction="headmenu.filme.tv-und-box-sets" href="/kaufen/filme-dvd-tv-und-box-set">TV &amp; Box-Sets</a></li>
+    </ul>
+</div>
+<div  class="main-navigation category-column border-right before-category-image">
+    <p>Beliebteste Blu-Ray</p>
+    <ul class="col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.filme.action" href="/kaufen/filme-blu-ray-disc-action">Action</a></li>
+        <li><a data-wtaction="headmenu.filme.fantasy" href="/kaufen/filme-blu-ray-disc-fantasy">Fantasy</a></li>
+        <li><a data-wtaction="headmenu.filme.horror-und-mystery" href="/kaufen/filme-blu-ray-disc-horror">Horror &amp; Mystery</a></li>
+        <li><a data-wtaction="headmenu.filme.kinderfilm" href="/kaufen/filme-blu-ray-disc-kinderfilme-und-zeichentrick">Kinderfilm</a></li>
+        <li><a data-wtaction="headmenu.filme.komoedie" href="/kaufen/filme-blu-ray-disc-komoedie">Komödie</a></li>
+        <li><a data-wtaction="headmenu.filme.thriller" href="/kaufen/filme-blu-ray-disc-action-und-thriller">Thriller</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column category-image">
+    <p class="highlight">Filmtipp: Action Filme</p>
+    <a data-wtaction="headmenu.filme.zu-den-action-filmen" class="category-image" href="/kaufen/filme-dvd-action">
+        <img alt="Zu den Action Filmen" src="/images/header/navigation/category-films.jpeg" width="228" height="150"/>
+        Zu den Action Filmen
+    </a>
+</div>
+</div>
+        </li>
+        <li class="videospiele dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/videospiele" data-wtaction="headmenu.videospiele">Videospiele</a>
+                <div class="header-main-navigation content videogames"><div  class="main-navigation category-column outer-left border-right">
+    <p>Beliebt</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.videospiele.beliebteste-videospiele" href="/kaufen/videospiele,all">Beliebteste Videospiele</a></li>
+        <li><a data-wtaction="headmenu.videospiele.internationale-versionen" href="/kaufen/suchen?c=94&amp;q=Internationale">Internationale Versionen</a></li>
+        <li><a data-wtaction="headmenu.videospiele.guenstige-videospiele" href="/kaufen/videospiele,all?ipp=20&amp;sortBy=price_asc">Günstigste Videospiele</a></li>
+    </ul>
+</div>
+<div  class="main-navigation category-column border-right before-category-image">
+    <p>Plattform</p>
+    <ul class="multi-column col-2">
+        <li><a data-wtaction="headmenu.videospiele.dreamcast" href="/kaufen/videospiele-dreamcast">Dreamcast</a></li>
+        <li><a data-wtaction="headmenu.videospiele.gameboy-advance" href="/kaufen/videospiele-gb-advance">Gameboy Advance</a></li>
+        <li><a data-wtaction="headmenu.videospiele.gamecube" href="/kaufen/videospiele-gamecube">GameCube</a></li>
+        <li><a data-wtaction="headmenu.videospiele.n64" href="/kaufen/videospiele-nintendo-64">N64</a></li>
+        <li><a data-wtaction="headmenu.videospiele.nes" href="/kaufen/videospiele-nes">NES</a></li>
+        <li><a data-wtaction="headmenu.videospiele.nintendo-3ds" href="/kaufen/videospiele-nintendo-3ds">Nintendo 3DS</a></li>
+        <li><a data-wtaction="headmenu.videospiele.nintendo-ds" href="/kaufen/videospiele-nintendo-ds">Nintendo DS</a></li>
+        <li><a data-wtaction="headmenu.videospiele.nintendo-wii" href="/kaufen/videospiele-nintendo-wii">Nintendo Wii</a></li>
+        <li><a data-wtaction="headmenu.videospiele.nintendo-wii-u" href="/kaufen/videospiele-nintendo-wii-u">Nintendo Wii U</a></li>
+        <li><a data-wtaction="headmenu.videospiele.playstation-1" href="/kaufen/videospiele-playstation-1">PlayStation 1</a></li>
+        <li><a data-wtaction="headmenu.videospiele.playstation-2" href="/kaufen/videospiele-playstation-2">PlayStation 2</a></li>
+    </ul>
+    <ul class="multi-column col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.videospiele.playstation-3" href="/kaufen/videospiele-playstation-3">PlayStation 3</a></li>
+        <li><a data-wtaction="headmenu.videospiele.playstation-4" href="/kaufen/videospiele-playstation-4">PlayStation 4</a></li>
+        <li><a data-wtaction="headmenu.videospiele.playstation-portable" href="/kaufen/videospiele-playstation-portable">PlayStation Portable</a></li>
+        <li><a data-wtaction="headmenu.videospiele.playstation-vita" href="/kaufen/videospiele-playstation-vita">PlayStation Vita</a></li>
+        <li><a data-wtaction="headmenu.videospiele.sega-saturn" href="/kaufen/videospiele-sega-saturn">Sega Saturn</a></li>
+        <li><a data-wtaction="headmenu.videospiele.super-nintendo" href="/kaufen/videospiele-super-nintendo">Super Nintendo</a></li>
+        <li><a data-wtaction="headmenu.videospiele.xbox" href="/kaufen/videospiele-xbox">XBox</a></li>
+        <li><a data-wtaction="headmenu.videospiele.xbox-360" href="/kaufen/videospiele-xbox-360">Xbox 360</a></li>
+        <li><a data-wtaction="headmenu.videospiele.xbox-one" href="/kaufen/videospiele-xbox-one">Xbox One</a></li>
+        <li><a data-wtaction="headmenu.videospiele.pc-spiele" href="/kaufen/videospiele-pc-spiele">PC Spiele</a></li>
+        <li><a data-wtaction="headmenu.videospiele.alle-videospiele" href="/kaufen/videospiele,all">Alle Videospiele</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column category-image">
+    <p class="highlight">Kundenempfehlung:<br/> PS3 Games</p>
+    <a data-wtaction="headmenu.videospiele.zu-den-ps3-games" class="category-image" href="/kaufen/videospiele-playstation-3">
+        <img alt="Zu den PS3 Games" src="/images/header/navigation/category-videogames.jpeg" width="228" height="150"/>
+        Zu den PS3 Games
+    </a>
+</div>
+</div>
+        </li>
+        <li class="tablets dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/tablets-und-ebook-reader" data-wtaction="headmenu.tablets">Tablets</a>
+            <div class="header-main-navigation content tablets"><div class="main-navigation category-column outer-left border-right">
+    <p>Beliebteste Hersteller</p>
+    <ul class="multi-column col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.acer" href="/kaufen/tablets-und-ebook-reader-acer">Acer</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.amazon" href="/kaufen/tablets-und-ebook-reader-amazon">Amazon</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.apple" href="/kaufen/tablets-und-ebook-reader-apple">Apple</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.archos" href="/kaufen/tablets-und-ebook-reader-archos">Archos</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.asus" href="/kaufen/tablets-und-ebook-reader-asus">Asus</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.bookeen" href="/kaufen/tablets-und-ebook-reader-bookeen">Bookeen</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.dell" href="/kaufen/tablets-und-ebook-reader-dell">Dell</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.fujitsu" href="/kaufen/tablets-und-ebook-reader-fujitsu">Fujitsu</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.hanvon" href="/kaufen/tablets-und-ebook-reader-hanvon">Hanvon</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.hp" href="/kaufen/tablets-und-ebook-reader-hp">HP</a></li>
+    </ul>
+
+    <ul class="multi-column col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.htc" href="/kaufen/tablets-und-ebook-reader-htc">HTC</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.lenovo" href="/kaufen/tablets-und-ebook-reader-lenovo">Lenovo</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.lg" href="/kaufen/tablets-und-ebook-reader-lg">LG</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.motorola" href="/kaufen/tablets-und-ebook-reader-motorola">Motorola</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.rim-blackberry" href="/kaufen/tablets-und-ebook-reader-rim-blackberry">RIM / Blackberry</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.samsung" href="/kaufen/tablets-und-ebook-reader-samsung">Samsung</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.sony" href="/kaufen/tablets-und-ebook-reader-sony">Sony</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.toshiba" href="/kaufen/tablets-und-ebook-reader-toshiba">Toshiba</a></li>
+        <li><a data-wtaction="headmenu.tablets-und-ebook-reader.tablets-und-ebook-reader" href="/kaufen/tablets-und-ebook-reader,all">Alle anzeigen</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column category-image">
+    <p class="highlight">Tipp: Apple iPad</p>
+    <a data-wtaction="headmenu.tablets-und-ebook-reader.zu-den-ipads" class="category-image" href="/kaufen/tablets-und-ebook-reader-apple">
+        <img alt="Zu den iPads" src="/images/header/navigation/category-tablets-ipad.jpeg" width="228" height="150"/>
+        Zu den iPads
+    </a>
+</div>
+</div>
+        </li>
+        <li class="elektronik dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/konsolen-und-zubehoer" data-wtaction="headmenu.elektronik">Elektronik</a>
+            <div class="header-main-navigation content electronics"><div class="main-navigation category-column border-right outer-left">
+    <p class="category-header link"><a href="/kaufen/apple">Apple</a></p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.elektronik.ipad" href="/kaufen/apple-ipad">iPad</a></li>
+        <li><a data-wtaction="headmenu.elektronik.iphone" href="/kaufen/apple-iphone">iPhone</a></li>
+        <li><a data-wtaction="headmenu.elektronik.ipod" href="/kaufen/apple-ipod">iPod</a></li>
+        <li><a data-wtaction="headmenu.elektronik.notebooks" href="/kaufen/apple-notebooks">Notebooks</a></li>
+        <li><a data-wtaction="headmenu.elektronik.tv" href="/kaufen/apple-tv">TV</a></li>
+        <li><a data-wtaction="headmenu.elektronik.zubehoer" href="/kaufen/apple-zubehoer">Zubehör</a></li>
+    </ul>
+</div>
+<div class="main-navigation category-column border-right">
+    <p class="category-header link"><a href="/kaufen/konsolen-und-zubehoer">Konsolen &amp; Zubehör</a></p>
+    <ul class="multi-column col-2">
+        <li><a data-wtaction="headmenu.elektronik.gameboy-advance" href="/kaufen/konsolen-und-zubehoer-gameboy-advance">GameBoy Advance</a></li>
+        <li><a data-wtaction="headmenu.elektronik.gamecube" href="/kaufen/konsolen-and-zubehoer-gamecube">GameCube</a></li>
+        <li><a data-wtaction="headmenu.elektronik.n64" href="/kaufen/konsolen-und-zubehoer-n64">N64</a></li>
+        <li><a data-wtaction="headmenu.elektronik.nes" href="/kaufen/konsolen-und-zubehoer-nes">NES</a></li>
+        <li><a data-wtaction="headmenu.elektronik.nintendo-3ds" href="/kaufen/konsolen-und-zubehoer-nintendo-3ds">Nintendo 3DS</a></li>
+        <li><a data-wtaction="headmenu.elektronik.nintendo-ds" href="/kaufen/konsolen-und-zubehoer-nintendo-ds">Nintendo DS</a></li>
+        <li><a data-wtaction="headmenu.elektronik.nintendo-wii" href="/kaufen/konsolen-und-zubehoer-nintendo-wii">Nintendo Wii</a></li>
+        <li><a data-wtaction="headmenu.elektronik.nintendo-wii-u" href="/kaufen/konsolen-und-zubehoer-nintendo-wii-u">Nintendo Wii U</a></li>
+        <li><a data-wtaction="headmenu.elektronik.playstation-2" href="/kaufen/konsolen-und-zubehoer-playstation-2">PlayStation 2</a></li>
+    </ul>
+    <ul class="multi-column col-2 col-inner-right">
+        <li><a data-wtaction="headmenu.elektronik.playstation-3" href="/kaufen/konsolen-und-zubehoer-playstation-3">PlayStation 3</a></li>
+        <li><a data-wtaction="headmenu.elektronik.playstation-4" href="/kaufen/konsolen-und-zubehoer-playstation-4">PlayStation 4</a></li>
+        <li><a data-wtaction="headmenu.elektronik.playstation-portable" href="/kaufen/konsolen-und-zubehoer-playstation-portable">PlayStation Portable</a></li>
+        <li><a data-wtaction="headmenu.elektronik.playstation-vita" href="/kaufen/konsolen-und-zubehoer-playstation-vita">PlayStation Vita</a></li>
+        <li><a data-wtaction="headmenu.elektronik.super-nintendo" href="/kaufen/konsolen-und-zubehoer-super-nintendo">Super Nintendo</a></li>
+        <li><a data-wtaction="headmenu.elektronik.xbox" href="/kaufen/konsolen-und-zubehoer-xbox">Xbox</a></li>
+        <li><a data-wtaction="headmenu.elektronik.xbox-360" href="/kaufen/konsolen-und-zubehoer-xbox-360">Xbox 360</a></li>
+        <li><a data-wtaction="headmenu.elektronik.xbox-one" href="/kaufen/konsolen-und-zubehoer-xbox-one">Xbox One</a></li>
+        <li><a data-wtaction="headmenu.elektronik.alle-anzeigen" href="/kaufen/konsolen-und-zubehoer,all">Alle anzeigen</a></li>
+    </ul>
+</div>
+
+<div  class="main-navigation category-column">
+    <p class="category-header link"><a data-wtaction="headmenu.elektronik.noteooks" href="/kaufen/notebooks">Notebooks</a></p>
+    <p class="category-header link"><a data-wtaction="headmenu.elektronik.tablets-und-ebook-reader" href="/kaufen/tablets-und-ebook-reader">Tablets &amp; eBook Reader</a></p>
+    <p class="category-header link"><a data-wtaction="headmenu.elektronik.computer-software" href="/kaufen/computer-software">Software</a></p>
+</div>
+</div>
+        </li>
+        <li class="musik dropdown-blue">
+            <a class="header-main-navigation" href="/kaufen/musik" data-wtaction="headmenu.musik">Musik</a>
+            <div class="header-main-navigation content music"><div  class="main-navigation category-column outer-left border-right">
+    <p>Beliebt</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.musik.aktuelle-topseller" href="/kaufen/musik,all">Aktuelle Topseller</a></li>
+        <li><a data-wtaction="headmenu.musik.neuerscheinungen" href="/kaufen/musik,all?ipp=20&amp;sortBy=release">Neuerscheinungen</a></li>
+    </ul>
+    <p>Format</p>
+    <ul class="col-2 col-outer-left">
+        <li><a data-wtaction="headmenu.musik.cd" href="/kaufen/musik-cd">CD</a></li>
+        <li><a data-wtaction="headmenu.musik.blu-ray-disc" href="/kaufen/musik-blu-ray-disc">Blu-Ray Disc</a></li>
+        <li><a data-wtaction="headmenu.musik.dvd" href="/kaufen/musik-dvd">DVD</a></li>
+        <li><a data-wtaction="headmenu.musik.hd-dvd" href="/kaufen/musik-hd-dvd">HD DVD</a></li>
+        <li><a data-wtaction="headmenu.musik.umd" href="/kaufen/musik-umd">UMD</a></li>
+    </ul>
+</div>
+<div  class="main-navigation category-column">
+    <p>CD Genres</p>
+    <ul class="multi-column col-2">
+        <li><a data-wtaction="headmenu.musik.alternative" href="/kaufen/musik-cd-alternative">Alternative</a></li>
+        <li><a data-wtaction="headmenu.musik.blues" href="/kaufen/musik-cd-blues">Blues</a></li>
+        <li><a data-wtaction="headmenu.musik.compilations" href="/kaufen/musik-cd-compilations">Compilations</a></li>
+        <li><a data-wtaction="headmenu.musik.country" href="/kaufen/musik-cd-country">Country</a></li>
+        <li><a data-wtaction="headmenu.musik.jazz" href="/kaufen/musik-cd-jazz">Jazz</a></li>
+        <li><a data-wtaction="headmenu.musik.kindermusik-und-hoerspiele" href="/kaufen/musik-cd-kindermusik-und-hoerspiele">Kindermusik &amp; Hörspiele</a></li>
+        <li><a data-wtaction="headmenu.musik.klassik" href="/kaufen/musik-cd-klassik">Klassik</a></li>
+        <li><a data-wtaction="headmenu.musik.metal-und-hardrock" href="/kaufen/musik-cd-metal-und-hardrock">Metal &amp; Hardrock</a></li>
+        <li><a data-wtaction="headmenu.musik.r-n-b-und-soul" href="/kaufen/musik-cd-r-und-b-und-soul">R&amp;B &amp; Soul</a></li>
+    </ul>
+    <ul class="multi-column col-2 col-outer-right">
+        <li><a data-wtaction="headmenu.musik.pop" href="/kaufen/musik-cd-pop">Pop</a></li>
+        <li><a data-wtaction="headmenu.musik.rock" href="/kaufen/musik-cd-rock">Rock</a></li>
+        <li><a data-wtaction="headmenu.musik.rock-und-pop-aus-deutschland" href="/kaufen/musik-cd-rock-und-pop-aus-deutschland">Rock &amp; Pop aus Deutschland</a></li>
+        <li><a data-wtaction="headmenu.musik.schlager-und-volksmusik" href="/kaufen/musik-cd-schlager-und-volksmusik">Schlager &amp; Volksmusik</a></li>
+        <li><a data-wtaction="headmenu.musik.soundtracks-und-musicals" href="/kaufen/musik-cd-soundtracks-und-musicals">Soundtracks &amp; Musicals</a></li>
+    </ul>
+</div>
+</div>
+        </li>
+        <li class="header-main-navigation warrenty-information">
+            <a href="/s/rebuy-garantie" data-wtaction="head.lp_garantie" target="_blank">Unsere reBuy-Garantie</a>
+        </li>
+    </ul>
+</div>
+<ul class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><li class="item" typeof="v:Breadcrumb">
+            <a href="/" rel="v:url" property="v:title">Startseite</a>
+        </li><li class="seperator">&raquo;</li><li class="item" typeof="v:Breadcrumb">
+            <a href="/kaufen" rel="v:url" property="v:title">Kaufen</a>
+        </li><li class="seperator">&raquo;</li><li class="item" typeof="v:Breadcrumb"><span property="v:title">Suchergebnis "&quot;Heaven Shall Burn&quot;"</span></li></ul>            <div id="middle">
+                <div id="left">
+    
+<div id="navigation-sidebar" class="navigation">
+        <div class="navigation-item">
+            <div class="navigation-item-head">
+                <h2>Kategorien</h2>
+                                        <a class="navigation-item-head-control" href="/kaufen/suchen?inStock=1&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc"><i class="icon-remove"></i></a>
+                            </div>
+            <div class="navigation-item-body">
+                                <ul>
+                                                                                                                                <li class="loud navigation-item-body-depth-1 navigation-item-body-depth-noicon">
+                            Musik                        </li>
+                                    </ul>
+                <ul>
+                                                                    <li class="navigation-item-body-depth-2  navigation-item-body-depth-noicon">
+                            <a href="/kaufen/suchen?inStock=1&c=84&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc"
+                                data-wtaction="category_filter.musik_cd"                               >
+                                CD (5)
+                            </a>
+
+                        </li>
+                                    </ul>
+                                            </div>
+        </div>
+        
+            <div class="search-controls"><div class="navigation-item"><div class="navigation-item-head"><h2>Preisspanne</h2></div><div class="navigation-item-body"><div class="inner pricerange-inner reset-color"><input type="text" id="pricerange-filter" value="" data-slider-step="1" data-slider-min="5" data-slider-max="10" data-slider-value="[5, 10]"><div class="input"><input type="text" name="price_from" value="5" /> € - <input type="text" name="price_to" value="10" /> €<a data-wtaction="search.filter.price_range" class="price-filter-button" href="#">Preis eingrenzen</a></div></div></div></div><div class="navigation-item"><div class="navigation-item-head"><h2>Verfügbarkeit</h2></div><div class="navigation-item-body"><ul><li><a data-wtaction="search.filter.in_stock" class="rebuy-control-element" href="/kaufen/suchen?inStock=0&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc"><i class="rebuy-icon-checkbox-checked"></i><span>nur Artikel auf Lager anzeigen<span></a></li></ul></div></div></div></div></div>
+
+<div id="center">
+    
+        <div id="content">
+        <h1>Ihre Suche nach "&quot;Heaven Shall Burn&quot;" erzielte folgende Ergebnisse</h1>
+                        <div class="search-controls"><span class="search-controls-sort-by">sortieren nach <div class="btn-group"><button class="dropdown-toggle" data-toggle="dropdown">Preis: aufsteigend <span class="caret"></span></button><ul class="dropdown-menu"><li><a href="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=availability" data-wtaction="search.sort.availability">Verfügbarkeit</a></li><li><a href="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=best_results" data-wtaction="search.sort.best_results">Beste Ergebnisse</a></li><li><a href="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc" data-wtaction="search.sort.price_asc">Preis: aufsteigend</a></li><li><a href="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_desc" data-wtaction="search.sort.price_desc">Preis: absteigend</a></li><li><a href="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=release" data-wtaction="search.sort.release">Erscheinungsdatum</a></li></ul></div></span><div class="search-controls-style btn-group" data-toggle="buttons"><label class="btn btn-xs" data-wtaction="search.list" data-search-style="list"><input type="radio" name="style"><i class="glyphicon icon-rebuy icon-search-list"></i></label><label class="btn btn-xs" data-wtaction="search.tiles" data-search-style="tiles"><input type="radio" name="style"><i class="glyphicon icon-rebuy icon-search-tiles"></i></label></div></div>        <ul class="products tiles clearfix">
+                                                        
+        <li class="product product-available age-rating-0">
+            
+
+<div class="list-item-inner">
+    <a href="/i,906625/cd/heaven-shall-burn-in-battle" title="Heaven Shall Burn - In Battle..." class="productConversion">
+        <img src="/images/welcome/bg-white-transparent.png" data-original="https://dksw3hw5iu1be.cloudfront.net/906625/thumbs/110.gif?lm=0" class="cover" alt="Heaven Shall Burn - In Battle..." width="110" height="154"/>    </a>
+
+    <h2>
+        <a href="/i,906625/cd/heaven-shall-burn-in-battle" title="Heaven Shall Burn - In Battle..." class="inverse productConversion ellipsis">
+            Heaven Shall Burn - In Battle...        </a>
+
+                
+        <div class="ellipsis" title="CD">
+            <p class="category-icon category-music">CD</p>        </div>
+    </h2>
+
+    <div class="data">
+        
+<p class="availability green">
+    1 Artikel auf Lager</p>
+
+<p class="price">
+    <span>
+        <strong class="alpha">5,59 €</strong>
+    </span>
+</p>
+
+<p class="vat">
+    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+</p>
+
+<form accept-charset="utf-8" method="post" action="/cart/add-item" class="productConversion"><input type="hidden" name="id" value="906625" /> <input type="hidden" name="quickbuy" value="1" /><button title="In den Warenkorb" class="btn-small btn-orange add-to-button list-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button> <button title="In den Warenkorb" class="btn-small btn-orange add-to-button tiles-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button></form>    </div>
+</div>
+        </li>
+                                                            
+        <li class="product product-available age-rating-0">
+            
+
+<div class="list-item-inner">
+    <a href="/i,202544/cd/heaven-shall-burn-iconoclast-part-one-the-final-resistance" title="Heaven Shall Burn - Iconoclast (Part One: the Final Resistance)" class="productConversion">
+        <img src="/images/welcome/bg-white-transparent.png" data-original="https://dksw3hw5iu1be.cloudfront.net/202544/thumbs/110.gif?lm=0" class="cover" alt="Heaven Shall Burn - Iconoclast (Part One: the Final Resistance)" width="110" height="154"/>    </a>
+
+    <h2>
+        <a href="/i,202544/cd/heaven-shall-burn-iconoclast-part-one-the-final-resistance" title="Heaven Shall Burn - Iconoclast (Part One: the Final Resistance)" class="inverse productConversion ellipsis">
+            Heaven Shall Burn - Iconoclast (Part One: the Final Resistance)        </a>
+
+                
+        <div class="ellipsis" title="CD">
+            <p class="category-icon category-music">CD</p>        </div>
+    </h2>
+
+    <div class="data">
+        
+<p class="availability green">
+    3 Artikel auf Lager</p>
+
+<p class="price">
+    <span>
+        <strong class="alpha">6,29 €</strong>
+    </span>
+</p>
+
+<p class="vat">
+    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+</p>
+
+<form accept-charset="utf-8" method="post" action="/cart/add-item" class="productConversion"><input type="hidden" name="id" value="202544" /> <input type="hidden" name="quickbuy" value="1" /><button title="In den Warenkorb" class="btn-small btn-orange add-to-button list-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button> <button title="In den Warenkorb" class="btn-small btn-orange add-to-button tiles-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button></form>    </div>
+</div>
+        </li>
+                                                            
+        <li class="product product-available age-rating-">
+            
+
+<div class="list-item-inner">
+    <a href="/i,1407370/cd/heaven-shall-burn-deaf-to-our-prayers-ltd-uk-import" title="Heaven Shall Burn - Deaf to Our Prayers-Ltd." class="productConversion">
+        <img src="/images/welcome/bg-white-transparent.png" data-original="https://dksw3hw5iu1be.cloudfront.net/1407370/thumbs/110.gif?lm=0" class="cover" alt="Heaven Shall Burn - Deaf to Our Prayers-Ltd." width="110" height="154"/>    </a>
+
+    <h2>
+        <a href="/i,1407370/cd/heaven-shall-burn-deaf-to-our-prayers-ltd-uk-import" title="Heaven Shall Burn - Deaf to Our Prayers-Ltd." class="inverse productConversion ellipsis">
+            Heaven Shall Burn - Deaf to Our Prayers-Ltd.        </a>
+
+                
+        <div class="ellipsis" title="CD">
+            <p class="category-icon category-music">CD</p>        </div>
+    </h2>
+
+    <div class="data">
+        
+<p class="availability green">
+    1 Artikel auf Lager</p>
+
+<p class="price">
+    <span>
+        <strong class="alpha">9,39 €</strong>
+    </span>
+</p>
+
+<p class="vat">
+    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+</p>
+
+<form accept-charset="utf-8" method="post" action="/cart/add-item" class="productConversion"><input type="hidden" name="id" value="1407370" /> <input type="hidden" name="quickbuy" value="1" /><button title="In den Warenkorb" class="btn-small btn-orange add-to-button list-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button> <button title="In den Warenkorb" class="btn-small btn-orange add-to-button tiles-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button></form>    </div>
+</div>
+        </li>
+                                                            
+        <li class="product product-available age-rating-">
+            
+
+<div class="list-item-inner">
+    <a href="/i,1505291/cd/heaven-shall-burn-invictus-ltd-ed" title="Heaven Shall Burn - Invictus (Ltd.ed.)" class="productConversion">
+        <img src="/images/welcome/bg-white-transparent.png" data-original="https://dksw3hw5iu1be.cloudfront.net/1505291/thumbs/110.gif?lm=0" class="cover" alt="Heaven Shall Burn - Invictus (Ltd.ed.)" width="110" height="154"/>    </a>
+
+    <h2>
+        <a href="/i,1505291/cd/heaven-shall-burn-invictus-ltd-ed" title="Heaven Shall Burn - Invictus (Ltd.ed.)" class="inverse productConversion ellipsis">
+            Heaven Shall Burn - Invictus (Ltd.ed.)        </a>
+
+                
+        <div class="ellipsis" title="CD">
+            <p class="category-icon category-music">CD</p>        </div>
+    </h2>
+
+    <div class="data">
+        
+<p class="availability green">
+    2 Artikel auf Lager</p>
+
+<p class="price">
+    <span>
+        <strong class="alpha">9,49 €</strong>
+    </span>
+</p>
+
+<p class="vat">
+    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+</p>
+
+<form accept-charset="utf-8" method="post" action="/cart/add-item" class="productConversion"><input type="hidden" name="id" value="1505291" /> <input type="hidden" name="quickbuy" value="1" /><button title="In den Warenkorb" class="btn-small btn-orange add-to-button list-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button> <button title="In den Warenkorb" class="btn-small btn-orange add-to-button tiles-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button></form>    </div>
+</div>
+        </li>
+                                                            
+        <li class="product product-available age-rating-">
+            
+
+<div class="list-item-inner">
+    <a href="/i,1854445/cd/heaven-shall-burn-whatever-it-may-take" title="Heaven Shall Burn - Whatever It May Take" class="productConversion">
+        <img src="/images/welcome/bg-white-transparent.png" data-original="https://dksw3hw5iu1be.cloudfront.net/rebuy-default/110.jpg?lm=0" class="cover" alt="Heaven Shall Burn - Whatever It May Take" width="110" height="154"/>    </a>
+
+    <h2>
+        <a href="/i,1854445/cd/heaven-shall-burn-whatever-it-may-take" title="Heaven Shall Burn - Whatever It May Take" class="inverse productConversion ellipsis">
+            Heaven Shall Burn - Whatever It May Take        </a>
+
+                
+        <div class="ellipsis" title="CD">
+            <p class="category-icon category-music">CD</p>        </div>
+    </h2>
+
+    <div class="data">
+        
+<p class="availability green">
+    1 Artikel auf Lager</p>
+
+<p class="price">
+    <span>
+        <strong class="alpha">9,69 €</strong>
+    </span>
+</p>
+
+<p class="vat">
+    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+</p>
+
+<form accept-charset="utf-8" method="post" action="/cart/add-item" class="productConversion"><input type="hidden" name="id" value="1854445" /> <input type="hidden" name="quickbuy" value="1" /><button title="In den Warenkorb" class="btn-small btn-orange add-to-button list-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button> <button title="In den Warenkorb" class="btn-small btn-orange add-to-button tiles-button btn" type="submit" data-webtrekk-action-buy="enabled">In den Warenkorb</button></form>    </div>
+</div>
+        </li>
+                    <li class="row-separator">
+                <p class="vat">
+                    
+Preise sind Endpreise (kein USt-Ausweis gem. §25a UStG) zzgl.
+
+    <a href="/s/agb#versandkosten"
+       class="deliveryCostsTooltip">Versandkosten</a>
+
+(0,00 € ab 30&nbsp;€ Mindestbestellwert, sonst 3,99 €)
+                </p>
+            </li>
+                            </ul>
+    <div id="qid">61c2931f-d8d3-47e8-b84d-452563d51125</div>
+    </div>
+
+<div id="deliveryCostsTooltip">
+    <table>
+        <tr>
+            <td class="label">Nationaler Versand</td>
+            <td class="price">3,99 €</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="label">Lieferungen nach Österreich</td>
+            <td class="price">14,99 €</td>
+            <td>(bitte setzen Sie sich vor Abschluss der Bestellung mit unserem Kundensupport in Verbindung)</td>
+        </tr>
+    </table>
+
+    <p class="h2">Versendung von USK18-Artikel (USK18-Artikel werden nur national versendet)</p>
+
+    <table>
+        <tr>
+            <td class="label">Erstmalige Lieferung an eine Adresse</td>
+            <td class="price">8,63 €</td>
+            <td>inkl. Zuschlag für den DHL-Service "Identitäts- und Altersprüfung" 4,64 €</td>
+        </tr>
+        <tr>
+            <td class="label">Wiederholte Lieferung an eine Adresse</td>
+            <td class="price">5,98 €</td>
+            <td>inkl. Zuschlag für den DHL-Service "Eigenhändig" 1,99 €</td>
+        </tr>
+    </table>
+</div>
+
+<div id="uskRatings">
+    <p class="desc">
+        Die Alterseinstufungen der USK finden sich auf jeder Spieleverpackung und in der
+        Regel auf jedem Datenträger. Auch in einem seriösen Online-Shop wird immer auf
+        die USK-Kennzeichen verwiesen.
+    </p>
+
+    <ul>
+        <li>
+            <div>
+                <p class="h2">Freigegeben ohne Altersbeschränkung gemäß § 14 JuSchG.</p>
+
+                Spiele mit diesem Siegel sind aus der Sicht des Jugendschutzes für Kinder jeden
+                Alters unbedenklich. Sie sind aber nicht zwangsläufig schon für jüngere Kinder
+                verständlich oder gar komplex beherrschbar.
+            </div>
+        </li>
+        <li class="usk6">
+            <div>
+                <p class="h2">Freigegeben ab 6 Jahren gemäß § 14 JuSchG.</p>
+
+                Die Spiele wirken abstrakt-symbolisch, comicartig oder in anderer Weise unwirklich.
+                Spielangebote versetzen den Spieler möglicherweise in etwas unheimliche
+                Spielräume oder scheinen durch Aufgabenstellung oder Geschwindigkeit zu stressig
+                für Vorschulkinder. Oft sind sie ab 8-10 Jahren auch komplex beherrschbar.
+            </div>
+        </li>
+        <li class="usk12">
+            <div>
+                <p class="h2">Freigegeben ab 12 Jahren gemäß § 14 JuSchG.</p>
+
+                Kampfbetonte Grundmuster in der Lösung von Spielaufgaben. Zum Beispiel setzen
+                die Spielkonzepte auf Technikfaszination (historische Militärgerätschaft oder
+                Science-Fiction-Welt) oder auch auf die Motivation, tapfere Rollen in komplexen
+                Sagen- und Mythenwelten zu spielen.
+            </div>
+        </li>
+        <li class="usk16">
+            <div>
+                <p class="h2">Freigegeben ab 16 Jahren gemäß § 14 JuSchG.</p>
+
+                Rasante bewaffnete Action, mitunter gegen menschenähnliche Spielfiguren sowie
+                Spielkonzepte, die fiktive oder historische kriegerische Auseinandersetzungen
+                atmosphärisch nachvollziehen lassen.
+            </div>
+        </li>
+        <li class="usk18">
+            <div>
+                <p class="h2">Keine Jugendfreigabe gemäß § 14 JuSchG.</p>
+
+                <p>
+                    Typisches Erwachsenenspiel in Idee, Konzept und atmosphärischer Umsetzung,
+                    zumeist mit einem hohen Grad an virtueller Gewalt gegen menschlich gestaltete
+                    Spielfiguren.
+                </p>
+
+                <p>
+                    Der Gesetzgeber verpflichtet uns beim Verkauf von USK18-Artikeln die Identität
+                    und Volljährigkeit des Käufers zu prüfen. Für diesen Service der DHL fallen
+                    seit April 2012 bei jedem Versand von USK18-Artikeln Kosten in Höhe von
+                    1,99 € pro Paket an. Bei der erstmaligen Sendung
+                    an eine neue Empfängeradresse fallen einmalig zusätzliche Kosten in Höhe von
+                    2,65 € für den DHL Service &quot;Identitätsprüfung&quot; an.
+                    Bitte haben Sie dafür Ihren Personalausweis zum Zeitpunkt der Zustellung griffbereit.
+                </p>
+
+                <strong>Hinweis für internationale Versionen:</strong>
+
+                <p>
+                    Bitte beachten Sie, dass internationale Versionen grundsätzlich keine deutsche Altersfreigabe
+                    erhalten, unabhängig vom Inhalt der Spiele. Daher dürfen diese Spiele ausschließlich als
+                    USK18-Versionen verkauft werden.
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div id="centered"></div>
+</div>            </div>
+            <div id="footer">
+               <div id="big-footer">
+    <ul class="links">
+    <li><p class="heading">Über reBuy</p></li>
+    <li><a href="http://presse.rebuy.de/2014/08/04/the-rebuy-story/" target="_blank">reBuy Story</a></li>
+    <li><a href="http://blog.rebuy.de" title="reBuy Blog" target="_blank">Blog</a></li>
+    <li><a href="http://presse.rebuy.de" title="Presse" target="_blank">Presse</a></li>
+    <li><a href="http://jobs.rebuy.de" title="Jobs" target="_blank">Jobs</a></li>
+    <li><a href="/s/partner-programm" title="Partner Programm">Partner Programm</a></li>
+    <li><a href="/s/impressum" title="Impressum">Impressum</a></li>
+    <li><a href="/s/datenschutz" title="Datenschutz">Datenschutz</a></li>
+    <li><a href="/s/agb" title="AGB">AGB</a></li>
+</ul>
+    <ul class="links">
+    <li><p class="heading">Service</p></li>
+    <li><a href="/mein-konto" title="Mein Konto">Mein Konto</a></li>
+    <li><a href="/newsletter-anmeldung" title="Newsletter">Newsletter</a></li>
+    <li><a href="/support" title="Zur Online-Hilfe von reBuy.de" rel="nofollow" target="_blank" title="Hilfe">Hilfe</a></li>
+    <li><a href="http://www.trustedshops.de/profil/rebuy-de_X8263ED79FBB1D503BEB5F935EF6F91FA.html" title="Sicher kaufen auf reBuy.de" rel="nofollow">Sicher kaufen auf reBuy.de</a></li>
+    <li>
+        <a href="https://www.rebuy.de/s/gewerbliche-auftraege"
+           title="Kaufen oder Verkaufen Sie als gewerblicher Kunde bei reBuy.de"
+           rel="nofollow">
+            Gewerblich Kaufen und Verkaufen
+        </a>
+    </li>
+</ul>
+    <ul id="social-networks-footer">
+    <li><p class="heading">Sie finden uns auch bei</p></li>
+    <li class="facebook"><a href="http://www.facebook.com/reBuy.de" title="Sie finden uns auch bei Facebook">Facebook</a></li>
+    <li class="youtube"><a href="http://www.youtube.com/user/wwwreBuyde?feature=watch" title="Sie finden uns auch bei Youtube">Youtube</a></li>
+    <li class="twitter"><a href="https://twitter.com/www_reBuy_de" title="Sie finden uns auch bei Twitter">Twitter</a></li>
+    <li class="xing"><a href="http://www.xing.com/companies/rebuyrecommercegmbh" title="Sie finden uns auch bei Xing">Xing</a></li>
+</ul>
+    
+<ul id="newsletter-footer">
+    <li><p class="heading">Kein Angebot mehr verpassen!</p></li>
+    <li>
+        <div id="newsletter-banner">
+            <span>Der reBuy.de-Newsletter: <strong>Jetzt anmelden!</strong></span>
+            <p class="newsletter-pros">Die neusten Angebote</p>
+            <p class="newsletter-pros">Exklusive Gutscheine & Rabatte</p>
+            <p class="newsletter-pros">Aktionen & Gewinnspiele</p>
+        </div>
+        <div id="newsletter-subscribtion">
+            <form accept-charset="utf-8" method="post"
+                  action="/newsletter/subscribe">
+                <input type="hidden" name="redirect" value="/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc" />
+                <input type="text" name="email" value="Ihre E-Mail-Adresse" class="text clear-and-reset" />
+                <button title="Newsletter erhalten" class="btn-small btn-blue btn" type="submit" >Newsletter erhalten</button>            </form>
+            <p class="disclaimer">
+                (* Abmeldung jederzeit möglich, es gelten folgende
+                <a href="/s/datenschutz" rel="nofollow">
+                    Datenschutzbestimmungen
+                </a>
+                , Mindestbestellwert 30€)
+            </p>
+        </div>
+    </li>
+</ul>
+    <div class="large-links">
+    <ul>
+        <li><p class="heading">Kategorien Kaufen</p></li>
+    </ul>
+    <ul class="column-left">
+        <li><a href="/kaufen/apple" title="Gebrauchte Apple Produkte kaufen">Gebrauchte Apple Produkte</a></li>
+        <li><a href="/kaufen/buecher" title="Gebrauchte Bücher kaufen">Gebrauchte Bücher</a></li>
+        <li><a href="/kaufen/computer-software" title="Software gebraucht kaufen">Software gebraucht</a></li>
+        <li><a href="/kaufen/filme" title="Gebrauchte Filme kaufen">Gebrauchte Filme</a></li>
+        <li><a href="/kaufen/handy" title="Gebrauchte Handys kaufen">Gebrauchte Handys</a></li>
+        <li><a href="/kaufen/konsolen-und-zubehoer" title="Gebrauchte Konsolen kaufen">Gebrauchte Konsolen</a></li>
+        <li><a href="/kaufen/musik-cd" title="Gebrauchte CDs kaufen">Gebrauchte CDs</a></li>
+    </ul>
+    <ul class="column-right">
+        <li><a href="/kaufen/videospiele" title="Gebrauchte Videospiele kaufen">Gebrauchte Videospiele</a></li>
+        <li><a href="/kaufen/apple-iphone" title="Gebrauchtes iPhone kaufen">iPhone gebraucht</a></li>
+        <li><a href="/kaufen/filme-dvd" title="Gebrauchte DVDs kaufen">Gebrauchte DVDs</a></li>
+        <li><a href="/kaufen/filme-blu-ray-disc" title="Gebrauchte Blu-Ray Discs kaufen">Gebrauchte Blu-Rays</a></li>
+        <li><a href="/kaufen/tablets-und-ebook-reader" title="Gebrauchte Tablets kaufen">Gebrauchte Tablets</a></li>
+        <li><a href="/kaufen/notebooks" title="Gebrauchte Notebooks kaufen">Gebrauchte Notebooks</a></li>
+        <li><a href="/kaufen/apple-ipad" title="iPad gebraucht kaufen">iPad gebraucht</a></li>
+    </ul>
+</div>    <ul id="cross-link-footer">
+    <li><p class="heading">Verkaufen</p></li>
+    <li><a href="/verkaufen" title="Hier Gebrauchtware verkaufen"><div>Gebrauchte Artikel bei reBuy.de ver&shy;kaufen und innerhalb weniger Tage Geld erhalten.</div></a><li>
+</ul>
+    <ul id="trustedeshop-footer">
+    <li><p class="heading">Sicher einkaufen</p></li>
+    <li>
+        <a href="http://www.trustedshops.de/profil/rebuy-de_X8263ED79FBB1D503BEB5F935EF6F91FA.html" rel="nofollow">
+            <div></div>
+        </a>
+    </li>
+    <li><span>Ohne Risiko einkaufen mit dem kostenlosen Käuferschutz und Geld-Zurück-Garantie</span></li>
+
+</ul>    <ul id="questions-footer">
+    <li><p class="heading">Haben Sie Fragen?</p></li>
+    <li><div id="questions-footer-phone"></div></li>
+    <li><p class="questions-footer-phone-number">+49 (0)30 / 565 995 822</p></li>
+    <li><p class="questions-footer-openings">Festnetz, Mo - Fr 08-22 Uhr Sa 09-19 Uhr</p></li>
+</ul>
+    <ul id="paysafe-footer">
+	<li><p class="heading">Sicher bezahlen</p>
+	</li>
+	<li><div>reBuy.de versendet mit</div></li>
+</ul>    <p class="clearfix"></p>
+    <div id="copyright-footer">
+<p >&copy; 2009-2014 reBuy reCommerce GmbH. Gebraucht verkaufen - gebraucht kaufen.</p>
+<p>Alle Rechte vorbehalten.</p>
+</div></div>
+            </div>
+        </div>
+        
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://digwfxkiqhucy.cloudfront.net/scripts/rebuy.js?20141031143249"></script>
+<script type="text/javascript">
+    //<!--
+var _adobeDtmDataElements = {"site":"blue","isDevelopment":"","isAuthenticated":false,"cart":{"items":[],"value":0,"count":0},"cartItemCount":0,"viewedProducts":[],"viewedCategories":[]};_satellite.pageBottom();    //-->
+</script>
+<script type="text/javascript" src="https://digwfxkiqhucy.cloudfront.net/scripts/sale/search/index.js?20141031143249"></script>
+<script type="text/javascript" src="https://digwfxkiqhucy.cloudfront.net/scripts/sale/searchControls.js?20141031143249"></script>
+<script type="text/javascript">
+    //<!--
+
+            $('#content ul.products .productConversion').mousedown(function() {
+                var container = $(this).parents('li');
+                var productId = $('input[name="id"]', container).attr('value');
+
+                var queryId = $('#qid').text();
+
+                $.ajax({
+                    type: 'GET',
+                    url: '/ajax/search/track-conversion',
+                    data: {pid:productId,qid:queryId}
+                });
+            });
+            //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    $(document).on('click', 'a.deliveryCostsTooltip', function() { $(this).lightIt($('#deliveryCostsTooltip')); $(this).trigger('click'); return false; });
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+$('#content p.usk .link').lightIt($('#uskRatings'));
+    //-->
+</script>
+<script type="text/javascript" src="https://digwfxkiqhucy.cloudfront.net/scripts/library/tracking/trbo.js?20141031143249"></script>
+            <script type="text/javascript">
+                loadFacebook(function() {
+                    try {
+                        FB.init({appId: "148172005227803", status: false, cookie: false, xfbml: true});
+                        de.rebuy.login.provider.facebook.appId = "148172005227803";
+                        de.rebuy.classes.FacebookFunctions.affiliateId = "81";
+                    } catch(err) { }
+                });
+            </script>
+<script type="text/javascript">
+var webtrekkConfig = {"trackId":"943330110740689","trackDomain":"rebuy01.webtrekk.net","domain":"REGEXP:^(.*\\.)?(paypal\\.com|rebuy\\.de|qpay\\.com|sofort\\.com|checkout\\.wirecard\\.com)$","cookie":1,"contentId":"","heatmapRefpoint":"root"};
+var webtrekkPageConfig = {"form":1,"heatmap":0,"linkTrack":"standard","linkTrackAttribute":"data-wtaction"};
+var webtrekkAdditionalConfig = {};
+webtrekkAdditionalConfig.contentId = 'kaufen.suchergebnisse';
+webtrekkAdditionalConfig.internalSearch = '&quot;Heaven Shall Burn&quot;';
+webtrekkAdditionalConfig.contentGroup = {};
+webtrekkAdditionalConfig.contentGroup["1"] = "kaufen";
+webtrekkAdditionalConfig.contentGroup["2"] = "suche";
+webtrekkAdditionalConfig.customEcommerceParameter = {};
+webtrekkAdditionalConfig.customParameter = {};
+webtrekkAdditionalConfig.customParameter["1"] = "5";
+webtrekkAdditionalConfig.customParameter["7"] = "A";
+de.rebuy.webtrekk.core.init(webtrekkPageConfig, webtrekkAdditionalConfig);
+de.rebuy.webtrekk.core.sendInfo();
+</script>
+<noscript>
+<img src="https://rebuy01.webtrekk.net/943330110740689/wt?p=321,kaufen.suchergebnisse,0" alt="wt" />
+</noscript>
+    <script type="text/javascript">var criteoJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cscript src='" + criteoJsHost +"d1rgnfh960lz2b.cloudfront.net/javascript/criteo.min.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">window.criteo_q = window.criteo_q || [];window.criteo_q.push({"event":"setAccount","account":2702},{"event":"viewList","item":["906625","202544","1407370"],"keywords":"\"Heaven Shall Burn\""},{"event":"setSiteType","type":"d"});</script><img src="https://de17a.com/t/8863.image?rf=" border="0" width="1" height="1" galleryimg="no" alt="" />
+<script type="text/javascript">
+    de.rebuy.stage = 'production';
+    de.rebuy.isAuthenticated = 0;
+</script>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"af2aced0c4","applicationID":"1071871","transactionName":"blVSZBBTXERQURAIWVcfc0URRl1aHkEFDVMWQ1VREFFaGFhcAARO","queueTime":4,"applicationTime":873,"ttGuid":"","agentToken":"","atts":"QhJRElhJT0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-476.min.js"}</script></body>
+</html>
