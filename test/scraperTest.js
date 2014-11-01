@@ -1,26 +1,25 @@
+var nockResponses = function nockResponses() {
+  'use strict';
+
+  var nock = require( 'nock' );
+  nock( 'https://www.rebuy.de/' )
+    .get( '/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc' )
+    .reply( 200, require( 'fs' ).readFileSync( './test/sample.html', 'utf8' ) );
+};
+
 exports.testScraper = function( test ) {
-  //test.expect( 1 );
+  'use strict';
 
   var links = [];
   var scraperGenerator = require( '../lib/scraper' );
 
-  // Nock Responses
-  var nock = require( 'nock' );
-  nock( 'https://github.com' )
-    .get( '/doooeeerte/offersCrawler' )
-    .reply( 200, '<html><body><a href="#"><div>1</div></a><a href="#">2</a></body></html>' );
+  nockResponses();
   
-  scraperGenerator( 'https://github.com/doooeeerte/offersCrawler', 'a', function handleResult( obj ) {
+  scraperGenerator( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', '.product', function handleResult( obj ) {
     links.push.apply( links, obj );
   } )
   .then( function scrapingDone() {
-    var i;
-
-//    for ( i = 0; i < links.length; i++ ) {
-//      console.log( links[ i ].html() );
-//    }
-
-    test.ok( links.length === 2, 'scraper returned 2 links' );
+    test.ok( links.length === 5, 'scraper returned 5 products (actually it was ' + links.length + ')' );
 
     test.done();
   } );
