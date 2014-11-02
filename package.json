@@ -1,7 +1,7 @@
 {
   "name": "offersCrawler",
   "description": "Crawls rebuy offers for specific interesting bands",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "author": {
     "name": "Doooeeerte",
     "url": "https://github.com/doooeeerte/"
