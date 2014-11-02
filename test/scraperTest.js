@@ -11,11 +11,11 @@ exports.testScraper = function testScraper( test ) {
   'use strict';
 
   var links = [];
-  var scraperGenerator = require( '../lib/scraper' );
+  var scrape = require( '../lib/scraper' );
 
   nockResponses();
   
-  scraperGenerator( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', '.product', function handleResult( obj ) {
+  scrape( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', '.product', function handleResult( obj ) {
     links.push.apply( links, obj );
   } )
   .then( function scrapingDone() {
