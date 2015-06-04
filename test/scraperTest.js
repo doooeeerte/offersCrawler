@@ -2,11 +2,12 @@ var nockResponses = function nockResponses() {
   'use strict';
 
   var nock = require( 'nock' );
-  var returnedHTML = require( 'fs' ).readFileSync( './test/sample.html', 'utf8' );
+  //var returnedHTML = require( 'fs' ).readFileSync( './test/sample.html', 'utf8' );
 
   nock( 'https://www.rebuy.de/' )
     .get( '/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc' )
-    .reply( 200, returnedHTML );
+    .replyWithFile( 200, __dirname + '/sample.html', 'utf-8' );
+    //.reply( 200, returnedHTML );
 };
 
 exports.testScraper = function testScraper( test ) {
