@@ -18,7 +18,11 @@ exports.testScraper = function testScraper( test ) {
   nockResponses();
   
   scrape( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', '.product', function handleResult( obj ) {
+    console.log( 'Adding object(s)' );
+    console.log( obj );
     links.push.apply( links, obj );
+    console.log( 'Result is:' );
+    console.log( links );
   } )
   .then( function scrapingDone() {
     console.log( links );
