@@ -18,7 +18,7 @@ exports.testScraper = function testScraper( test ) {
 
   nockResponses();
   
-  scrape( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', '.product', function handleResult( obj ) {
+  scrape( 'https://www.rebuy.de/kaufen/suchen?inStock=1&c=83&q=%22Heaven+Shall+Burn%22&priceMax=2000&sortBy=price_asc', 'html', function handleResult( obj ) {
     console.log( 'Adding object(s)' );
     console.log( obj );
     links.push.apply( links, obj );
@@ -27,7 +27,7 @@ exports.testScraper = function testScraper( test ) {
   } )
   .then( function scrapingDone() {
     console.log( links );
-    test.ok( links.length === 5, 'scraper returned 5 products (actually it was ' + links.length + ')' );
+    test.ok( links.length === 1, 'scraper returned 5 products (actually it was ' + links.length + ')' );
 
     test.done();
   } );
