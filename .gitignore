@@ -2,3 +2,4 @@ node_modules
 plato
 bands.json
 .idea
+/nbproject/private/
