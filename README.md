@@ -1,4 +1,4 @@
-Crawl rebuy for some specific bands in order to get some great albums for a small price
+Crawl rebuy for some specific bands in order to get some great albums for a small price...
 ---
 | Travis | Drone.io | Gemnasium | VersionEye |
 | --- | --- | --- | --- |
