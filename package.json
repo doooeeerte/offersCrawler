@@ -32,7 +32,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-nodeunit": "~0.4.1",
     "scraperjs": "1.2.0",
-    "nock": "3.5.0"
+    "nock": "4.0.0"
   },
   "scripts": {
     "test": "grunt test"
