@@ -1,4 +1,4 @@
-( function main() {
+( function main( require ) {
   'use strict';
 
   var bands      = require( './bands.json' );
@@ -25,4 +25,4 @@
   } );
 
   server.listen( 31337 );
-} )();
+} )( require );
